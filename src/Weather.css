@@ -1,0 +1,84 @@
+.App {
+    text-align: center;
+  }
+  
+  
+  
+  .resault{
+    margin:auto;
+    height:100vh;
+    width:100vw;
+    display:flex;
+    justify-Content:center;
+    align-Items:center;
+    font-size:30PX;
+    border-radius: 7px;
+    font-weight: border;
+    background:url('https://mocah.org/uploads/posts/124416-miui-8-rainy-weather-background-minimal-hd.png');
+    background-size: cover;
+    background-position: center;
+    margin:auto;
+    color:white;
+    position: absolute;
+  z-index: -1;
+  
+  }
+  .container{
+      background: url('https://i.ytimg.com/vi/2QpkNOl0JZg/maxresdefault.jpg');
+     border-radius: 5PX;
+     background-color: white;
+    box-shadow: 0 5PX 10PX rgba(0, 0, 0,0.5);
+    width:  200PX;
+    position: relative;
+   
+    }
+  .inp{
+    border: none;
+    outline: none;
+    perspective: none;
+    box-shadow: 5PX 5PX 10PX rgba(0, 0, 0,1);
+    padding:  10PX 0;
+    border-radius: 50px;
+    font-size: 15PX;
+
+    
+  
+  }
+  .btn{
+    
+    text-align: center;
+    width: 200PX;
+    font-weight: bolder;
+    text-transform: capitalize;
+    padding:  15PX 10PX;
+    background-color:rgb(161, 164, 165);
+    color:white;
+    cursor: pointer;
+    border-radius: .5rem;
+    margin-left: 5PX;
+    border: none;
+    outline: none;
+    transition: all .3s;
+  
+  }
+  .btn:hover{
+    box-shadow: 0 5PX 10PX rgba(0, 0, 0, 0.2);
+    background-color: rgb(16, 150, 212);
+  }
+  h1{
+      display: block;
+      font-size: 20PX;
+  }
+  h2{
+    display: block;
+    font-size: 18PX;
+}
+h3{
+    display: block;
+    font-size: 16PX;
+}
+
+  .title{
+      color: white;
+      font-size: 30PX;
+  }
